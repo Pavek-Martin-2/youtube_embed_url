@@ -1,0 +1,15 @@
+s parametren start=sekund
+https://www.youtube.com/embed/IQrdyTrOUsQ?autoplay=1&mute=1&start=60&end=70
+
+---- toto funguje vyzkouseno v prohlizeci chrome
+https://www.youtube.com/embed/IQrdyTrOUsQ?autoplay=1&mute=1&end=81&vq=large
+---
+
+pozn. autoplay=1 nefunguje bez mute=1
+nepusti automaticky video pokud je i se zvukem
+vq=large -  kvalita 480
+
+
+https://copilot.microsoft.com/shares/pLWq58k9EaXTbqLnqhJf6
+
+

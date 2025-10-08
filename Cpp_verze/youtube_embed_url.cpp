@@ -23,9 +23,9 @@ if ( argc != 4 ) { // jestlize celkovy pocet argumentu neni prave 4 ( 0, 1, 2, 3
 // argv[0] je nazev spusteneho souboru tedy "youtube_embed_url.exe"
 // argv[1] je start cas, argv[2] stop cas a nakonec argv[3] je url youtube videa
 cout<<"pouziti:"<<endl;
-cout<<run_filename<<" 01:11:35 01:22:59 https://youtube.com/2PNY4RxISKw"<<endl;
+cout<<run_filename<<" 00:17:35 00:18:40 https://www.youtube.com/watch?v=sdQfL9YHdb4"<<endl;
 cout<<run_filename<<"    ^-start   ^-stop        ^-youtube video url "<<endl<<endl;
-cout<<run_filename<<" 00:00:00 01:22:59 https://youtu.be/2PNY4RxISKw"<<endl;
+cout<<run_filename<<" 00:00:00 00:00:25 https://www.youtube.com/watch?v=sdQfL9YHdb4"<<endl;
 cout<<run_filename<<"    ^-pro prehrani videa od uplneho zacatku pouzit toto"<<endl<<endl;
 cout<<"vysledky se vzdy zapisuji do souboru "<<'"'<<filename<<'"'<<endl;
 

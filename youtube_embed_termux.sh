@@ -2,8 +2,8 @@
 
 if [ -z "$3" ]
 then
-echo "youtube_embed.sh 00:00:00 00:01:02 https://youtu.be/2PNY4RxISKw"
-echo "youtube_embed.sh 01:11:35 01:22:59 https://youtu.be/2PNY4RxISKw"
+echo "youtube_embed.sh 00:00:00 00:00:25 https://www.youtube.com/watch?v=sdQfL9YHdb4"
+echo "youtube_embed.sh 00:17:35 00:18:40 https://www.youtube.com/watch?v=sdQfL9YHdb4"
 exit 1
 fi
 

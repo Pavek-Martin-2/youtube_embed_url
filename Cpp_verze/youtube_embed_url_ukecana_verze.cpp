@@ -6,7 +6,7 @@
 using namespace std;
 
 // deklarace prommenych
-string out1 = "https://www.youtube.com/embed/", out2, out3, out4, out5;
+string out1 = "https://www.youtube.com/embed/", out2, out3, out4, out5, out6;
 string str; // pouze pomocna promenna
 string cas1, cas2, url;
 string run_filename = "youtube_embed_url_ukecana_verze";
@@ -162,9 +162,18 @@ out5 += str_v2;
 out5 += "&vq=large";
 cout<<out5<<endl;
 
+// 8.10.2025 - jeste pridan link pro prehrani videa od casu strart az do konec videa
+// toto jiz neni enbed link ale pouzva se na konci parametr &t=sekund ( zacni hrat od pozice )
+out6 = url;
+out6 += "&t=";
+out6 += str_v1;
+cout<<endl<<out6<<endl;
+
+
 // samotny zapis dat do souboru
 outFile<<out4<<endl;
 outFile<<out5<<endl;
+outFile<<endl<<out6<<endl;
 outFile.close();
 }
 

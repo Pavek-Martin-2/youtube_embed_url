@@ -93,4 +93,12 @@ out4+=$v2
 out4+="&vq=large"
 echo $out4
 
+#8.10.2025 - jeste pridan link pro prehrani videa od casu strart az do konec videa
+#toto jiz neni enbed link ale pouzva se na konci parametr &t=sekund ( zacni hrat od pozice )
+out5=$url
+out5+="&t="
+out5+=$v1;
+echo ""
+echo $out5
+
 fi
